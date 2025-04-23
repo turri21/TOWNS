@@ -1,0 +1,369 @@
+Restore Archived Project report for release-TOWNS
+Sat Jul 27 10:28:42 2024
+Quartus Prime Version 17.0.2 Build 602 07/19/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Sat Jul 27 10:28:42 2024 ;
+; Revision Name                   ; release-TOWNS                         ;
+; Top-level Entity Name           ; sys_top                               ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'F:/FPGA-GITHUB/FMTowns/release-TOWNS_240409.qar' into the 'F:/FPGA-GITHUB/FMTowns/release-TOWNS_240409_restored/' directory
+Info: Generated report 'release-TOWNS.restore.rpt'
+Info (23030): Evaluation of Tcl script e:/intelfpga_lite/17.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 302 warnings
+    Info: Peak virtual memory: 4868 megabytes
+    Info: Processing ended: Sat Jul 27 10:28:43 2024
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:05
+
+
++----------------+
+; Files Restored ;
++----------------+
+; File Name      ;
++----------------+
+
+
++---------------------------------------------------------------------+
+; Files Not Restored                                                  ;
++---------------------------------------------------------------------+
+; File Name                                                           ;
++---------------------------------------------------------------------+
+; qar_info.json                                                       ;
+; CPU/ao486/ao486.v                                                   ;
+; CPU/ao486/ao486_hw.tcl                                              ;
+; CPU/ao486/avalon_io.v                                               ;
+; CPU/ao486/defines.v                                                 ;
+; CPU/ao486/exception.v                                               ;
+; CPU/ao486/global_regs.v                                             ;
+; CPU/ao486/startup_default.v                                         ;
+; MiSTer/sys/alsa.sv                                                  ;
+; MiSTer/sys/arcade_video.v                                           ;
+; MiSTer/sys/ascal.vhd                                                ;
+; MiSTer/sys/audio_out.v                                              ;
+; MiSTer/sys/build_id.tcl                                             ;
+; MiSTer/sys/ddr_svc.sv                                               ;
+; MiSTer/sys/f2sdram_safe_terminator.sv                               ;
+; MiSTer/sys/gamma_corr.sv                                            ;
+; MiSTer/sys/hps_io.sv                                                ;
+; MiSTer/sys/hq2x.sv                                                  ;
+; MiSTer/sys/i2c.v                                                    ;
+; MiSTer/sys/i2s.v                                                    ;
+; MiSTer/sys/iir_filter.v                                             ;
+; MiSTer/sys/ltc2308.sv                                               ;
+; MiSTer/sys/math.sv                                                  ;
+; MiSTer/sys/mcp23009.sv                                              ;
+; MiSTer/sys/mt32pi.sv                                                ;
+; MiSTer/sys/osd.v                                                    ;
+; MiSTer/sys/pll_audio.qip                                            ;
+; MiSTer/sys/pll_audio.v                                              ;
+; MiSTer/sys/pll_audio/pll_audio_0002.qip                             ;
+; MiSTer/sys/pll_audio/pll_audio_0002.v                               ;
+; MiSTer/sys/pll_cfg.qip                                              ;
+; MiSTer/sys/pll_cfg.v                                                ;
+; MiSTer/sys/pll_cfg/altera_pll_reconfig_core.v                       ;
+; MiSTer/sys/pll_cfg/altera_pll_reconfig_top.v                        ;
+; MiSTer/sys/pll_hdmi.qip                                             ;
+; MiSTer/sys/pll_hdmi.v                                               ;
+; MiSTer/sys/pll_hdmi/pll_hdmi_0002.qip                               ;
+; MiSTer/sys/pll_hdmi/pll_hdmi_0002.v                                 ;
+; MiSTer/sys/pll_hdmi_adj.vhd                                         ;
+; MiSTer/sys/pll_q17.qip                                              ;
+; MiSTer/sys/scandoubler.v                                            ;
+; MiSTer/sys/scanlines.v                                              ;
+; MiSTer/sys/sd_card.sv                                               ;
+; MiSTer/sys/shadowmask.sv                                            ;
+; MiSTer/sys/sigma_delta_dac.v                                        ;
+; MiSTer/sys/spdif.v                                                  ;
+; MiSTer/sys/sys.qip                                                  ;
+; MiSTer/sys/sys.tcl                                                  ;
+; MiSTer/sys/sys_analog.tcl                                           ;
+; MiSTer/sys/sys_dual_sdram.tcl                                       ;
+; MiSTer/sys/sys_top.sdc                                              ;
+; MiSTer/sys/sys_top.v                                                ;
+; MiSTer/sys/sysmem.sv                                                ;
+; MiSTer/sys/vga_out.sv                                               ;
+; MiSTer/sys/video_cleaner.sv                                         ;
+; MiSTer/sys/video_freak.sv                                           ;
+; MiSTer/sys/video_freezer.sv                                         ;
+; MiSTer/sys/video_mixer.sv                                           ;
+; PS2IF/MOUSERECV.vhd                                                 ;
+; PS2IF/PS2IF.vhd                                                     ;
+; TOWNS/CDC/cdif.vhd                                                  ;
+; TOWNS/CMOS/cmosram.vhd                                              ;
+; TOWNS/CRTCREG.vhd                                                   ;
+; TOWNS/DMAC/busbusy.vhd                                              ;
+; TOWNS/DMAC/dma1ch.vhd                                               ;
+; TOWNS/DMAC/dma71071.vhd                                             ;
+; TOWNS/FDC/MiST8877.vhd                                              ;
+; TOWNS/IDROM/IDROM.cmp                                               ;
+; TOWNS/IDROM/IDROM.qip                                               ;
+; TOWNS/IDROM/IDROM.vhd                                               ;
+; TOWNS/IDROM/IDROMIF.vhd                                             ;
+; TOWNS/IDROM/IDSROM.vhd                                              ;
+; TOWNS/KBIF/KBCONV.vhd                                               ;
+; TOWNS/KBIF/kbtbl.cmp                                                ;
+; TOWNS/KBIF/kbtbl.qip                                                ;
+; TOWNS/KBIF/kbtbl.vhd                                                ;
+; TOWNS/MOUSE/atarimouse.vhd                                          ;
+; TOWNS/MiSTer/TOWNS.sv                                               ;
+; TOWNS/MiSTer/pll.cmp                                                ;
+; TOWNS/MiSTer/pll.qip                                                ;
+; TOWNS/MiSTer/pll.sip                                                ;
+; TOWNS/MiSTer/pll.spd                                                ;
+; TOWNS/MiSTer/pll.v                                                  ;
+; TOWNS/MiSTer/pll/pll_0002.qip                                       ;
+; TOWNS/MiSTer/pll/pll_0002.v                                         ;
+; TOWNS/MiSTer/pll_sim/pll.vo                                         ;
+; TOWNS/PCM/PCMREG.vhd                                                ;
+; TOWNS/PCM/SOUNDREG.vhd                                              ;
+; TOWNS/PIC/pic8259.vhd                                               ;
+; TOWNS/PTC/PTC1ch.vhd                                                ;
+; TOWNS/PTC/PTC8253.vhd                                               ;
+; TOWNS/SCSI/INQUIRYDATA.vhd                                          ;
+; TOWNS/SCSI/scsibuf.vhd                                              ;
+; TOWNS/SCSI/scsidev.vhd                                              ;
+; TOWNS/SPRITE/PATRAM.vhd                                             ;
+; TOWNS/TOWNSMiSTer.vhd                                               ;
+; TOWNS/VIDCREG.vhd                                                   ;
+; TOWNS/anapal.vhd                                                    ;
+; TOWNS/asmicont.bsf                                                  ;
+; TOWNS/asmicont.cmp                                                  ;
+; TOWNS/asmicont.inc                                                  ;
+; TOWNS/asmicont.qip                                                  ;
+; TOWNS/asmicont.vhd                                                  ;
+; TOWNS/asmicont_inst.vhd                                             ;
+; TOWNS/calcres.vhd                                                   ;
+; TOWNS/cdcachec.vhd                                                  ;
+; TOWNS/debug/ioexc.vhd                                               ;
+; TOWNS/debug/ixcount.vhd                                             ;
+; TOWNS/debug/stclk.vhd                                               ;
+; TOWNS/digpal.vhd                                                    ;
+; TOWNS/dpmreg.vhd                                                    ;
+; TOWNS/dummyreg.vhd                                                  ;
+; TOWNS/fdcont.vhd                                                    ;
+; TOWNS/freecount.vhd                                                 ;
+; TOWNS/inicopy.vhd                                                   ;
+; TOWNS/inttim2.vhd                                                   ;
+; TOWNS/iobin.vhd                                                     ;
+; TOWNS/iobout.vhd                                                    ;
+; TOWNS/iocont.vhd                                                    ;
+; TOWNS/iorw.vhd                                                      ;
+; TOWNS/jis2rom/jis2rom.cmp                                           ;
+; TOWNS/jis2rom/jis2rom.mif                                           ;
+; TOWNS/jis2rom/jis2rom.qip                                           ;
+; TOWNS/jis2rom/jis2rom.vhd                                           ;
+; TOWNS/kbint.vhd                                                     ;
+; TOWNS/kcgmemcont.vhd                                                ;
+; TOWNS/knjjis2rom.vhd                                                ;
+; TOWNS/lenwait.vhd                                                   ;
+; TOWNS/mem_addr_pkg_MiSTer.vhd                                       ;
+; TOWNS/memclr.vhd                                                    ;
+; TOWNS/memcont.vhd                                                   ;
+; TOWNS/memorymap.vhd                                                 ;
+; TOWNS/nmimskr.vhd                                                   ;
+; TOWNS/padio.vhd                                                     ;
+; TOWNS/pcmcreg.vhd                                                   ;
+; TOWNS/resetcont.vhd                                                 ;
+; TOWNS/ressel.vhd                                                    ;
+; TOWNS/rextreg.vhd                                                   ;
+; TOWNS/rkanjcg.vhd                                                   ;
+; TOWNS/rtc58321.vhd                                                  ;
+; TOWNS/rvidreg.vhd                                                   ;
+; TOWNS/scsiif.vhd                                                    ;
+; TOWNS/sdramc_new.vhd                                                ;
+; TOWNS/spcont.vhd                                                    ;
+; TOWNS/timerint.vhd                                                  ;
+; TOWNS/tlb_memtype.vhd                                               ;
+; TOWNS/townspad6.vhd                                                 ;
+; TOWNS/tvideo.vhd                                                    ;
+; TOWNS/tvwrote.vhd                                                   ;
+; TOWNS/v17/CMOS.cmp                                                  ;
+; TOWNS/v17/CMOS.qip                                                  ;
+; TOWNS/v17/CMOS.vhd                                                  ;
+; TOWNS/v17/FMR50.qsf                                                 ;
+; TOWNS/v17/TOWNS.qpf                                                 ;
+; TOWNS/v17/TOWNS.qsf                                                 ;
+; TOWNS/v17/TOWNS_M.qsf                                               ;
+; TOWNS/v17/TOWNS_M_assignment_defaults.qdf                           ;
+; TOWNS/v17/build_id.v                                                ;
+; TOWNS/v17/db/iomon_auto_stripped.stp                                ;
+; TOWNS/v17/iomon.stp                                                 ;
+; TOWNS/v17/linebuf.cmp                                               ;
+; TOWNS/v17/linebuf.qip                                               ;
+; TOWNS/v17/linebuf.vhd                                               ;
+; TOWNS/v17/linebuf2.vhd                                              ;
+; TOWNS/v17/mainpll.sip                                               ;
+; TOWNS/v17/mainpll.spd                                               ;
+; TOWNS/v17/mistram.cmp                                               ;
+; TOWNS/v17/mistram.qip                                               ;
+; TOWNS/v17/mistram.vhd                                               ;
+; TOWNS/v17/output_files/release-TOWNS.rbf                            ;
+; TOWNS/v17/release-TOWNS.qsf                                         ;
+; TOWNS/v17/rlinebuf.cmp                                              ;
+; TOWNS/v17/rlinebuf.qip                                              ;
+; TOWNS/v17/rlinebuf.vhd                                              ;
+; TOWNS/v17/vidpll.sip                                                ;
+; TOWNS/v17/vidpll.spd                                                ;
+; TOWNS/v17/vidpll_sim/altera_pll_reconfig/altera_pll_reconfig_core.v ;
+; TOWNS/v17/vidpll_sim/altera_pll_reconfig/altera_pll_reconfig_top.v  ;
+; TOWNS/v17/vidpll_sim/altera_pll_reconfig/altera_std_synchronizer.v  ;
+; TOWNS/v17/vidpll_sim/vidpll.v                                       ;
+; TOWNS/videocont.vhd                                                 ;
+; TOWNS/vmaskreg.vhd                                                  ;
+; TOWNS/vsint.vhd                                                     ;
+; USART/e8251.vhd                                                     ;
+; USART/rxframe.vhd                                                   ;
+; USART/txframe.vhd                                                   ;
+; rtc/rtcbody.vhd                                                     ;
+; sound/FMcommon/FMreg.vhd                                            ;
+; sound/FMcommon/MUL16x17.qip                                         ;
+; sound/FMcommon/MUL16x17.vhd                                         ;
+; sound/FMcommon/TLtbl.qip                                            ;
+; sound/FMcommon/TLtbl.vhd                                            ;
+; sound/FMcommon/envcont.vhd                                          ;
+; sound/FMcommon/envelope_pkg.vhd                                     ;
+; sound/FMcommon/muls16xu16.vhd                                       ;
+; sound/OPN/OPN2.vhd                                                  ;
+; sound/OPN/OPNFM.vhd                                                 ;
+; sound/OPN/OPNREG.qip                                                ;
+; sound/OPN/OPNREG.vhd                                                ;
+; sound/cosnrom.qip                                                   ;
+; sound/cosnrom.vhd                                                   ;
+; sound/mult16.qip                                                    ;
+; sound/mult16.vhd                                                    ;
+; sound/sinnrom.qip                                                   ;
+; sound/sinnrom.vhd                                                   ;
+; sound/sintbl.vhd                                                    ;
+; sound/sinwrom.qip                                                   ;
+; sound/sinwrom.vhd                                                   ;
+; towns/cmos/cmos.mif                                                 ;
+; towns/idrom/idrom.mif                                               ;
+; cpu/ao486/autogen/avalon_io.v                                       ;
+; cpu/ao486/autogen/avalon_mem.v                                      ;
+; cpu/ao486/autogen/dcache.v                                          ;
+; cpu/ao486/autogen/dcache_control_ram.v                              ;
+; cpu/ao486/autogen/decode_commands.v                                 ;
+; cpu/ao486/autogen/defines.v                                         ;
+; cpu/ao486/autogen/exception.v                                       ;
+; cpu/ao486/autogen/execute_commands.v                                ;
+; cpu/ao486/autogen/icache.v                                          ;
+; cpu/ao486/autogen/icache_control_ram.v                              ;
+; cpu/ao486/autogen/memory_read.v                                     ;
+; cpu/ao486/autogen/memory_write.v                                    ;
+; cpu/ao486/autogen/microcode_commands.v                              ;
+; cpu/ao486/autogen/prefetch_control.v                                ;
+; cpu/ao486/autogen/read_commands.v                                   ;
+; cpu/ao486/autogen/tlb.v                                             ;
+; cpu/ao486/autogen/write_commands.v                                  ;
+; cpu/ao486/common/simple_fifo.v                                      ;
+; cpu/ao486/common/simple_mult.v                                      ;
+; cpu/ao486/common/simple_ram.v                                       ;
+; cpu/ao486/memory/avalon_mem.v                                       ;
+; cpu/ao486/memory/cache_data_ram.v                                   ;
+; cpu/ao486/memory/dcache.v                                           ;
+; cpu/ao486/memory/dcache_control_ram.v                               ;
+; cpu/ao486/memory/dcache_matched.v                                   ;
+; cpu/ao486/memory/dcache_read.v                                      ;
+; cpu/ao486/memory/dcache_to_icache_fifo.v                            ;
+; cpu/ao486/memory/dcache_write.v                                     ;
+; cpu/ao486/memory/icache.v                                           ;
+; cpu/ao486/memory/icache_control_ram.v                               ;
+; cpu/ao486/memory/icache_matched.v                                   ;
+; cpu/ao486/memory/icache_read.v                                      ;
+; cpu/ao486/memory/link_dcacheread.v                                  ;
+; cpu/ao486/memory/link_dcachewrite.v                                 ;
+; cpu/ao486/memory/link_readburst.v                                   ;
+; cpu/ao486/memory/link_readcode.v                                    ;
+; cpu/ao486/memory/link_readline.v                                    ;
+; cpu/ao486/memory/link_writeburst.v                                  ;
+; cpu/ao486/memory/link_writeline.v                                   ;
+; cpu/ao486/memory/memory.v                                           ;
+; cpu/ao486/memory/memory_read.v                                      ;
+; cpu/ao486/memory/memory_write.v                                     ;
+; cpu/ao486/memory/prefetch.v                                         ;
+; cpu/ao486/memory/prefetch_control.v                                 ;
+; cpu/ao486/memory/prefetch_fifo.v                                    ;
+; cpu/ao486/memory/tlb.v                                              ;
+; cpu/ao486/memory/tlb_regs.v                                         ;
+; cpu/ao486/pipeline/condition.v                                      ;
+; cpu/ao486/pipeline/decode.v                                         ;
+; cpu/ao486/pipeline/decode_commands.v                                ;
+; cpu/ao486/pipeline/decode_prefix.v                                  ;
+; cpu/ao486/pipeline/decode_ready.v                                   ;
+; cpu/ao486/pipeline/decode_regs.v                                    ;
+; cpu/ao486/pipeline/execute.v                                        ;
+; cpu/ao486/pipeline/execute_commands.v                               ;
+; cpu/ao486/pipeline/execute_divide.v                                 ;
+; cpu/ao486/pipeline/execute_multiply.v                               ;
+; cpu/ao486/pipeline/execute_offset.v                                 ;
+; cpu/ao486/pipeline/execute_shift.v                                  ;
+; cpu/ao486/pipeline/fetch.v                                          ;
+; cpu/ao486/pipeline/microcode.v                                      ;
+; cpu/ao486/pipeline/microcode_commands.v                             ;
+; cpu/ao486/pipeline/pipeline.v                                       ;
+; cpu/ao486/pipeline/read.v                                           ;
+; cpu/ao486/pipeline/read_commands.v                                  ;
+; cpu/ao486/pipeline/read_debug.v                                     ;
+; cpu/ao486/pipeline/read_effective_address.v                         ;
+; cpu/ao486/pipeline/read_mutex.v                                     ;
+; cpu/ao486/pipeline/read_segment.v                                   ;
+; cpu/ao486/pipeline/write.v                                          ;
+; cpu/ao486/pipeline/write_commands.v                                 ;
+; cpu/ao486/pipeline/write_debug.v                                    ;
+; cpu/ao486/pipeline/write_register.v                                 ;
+; cpu/ao486/pipeline/write_stack.v                                    ;
+; cpu/ao486/pipeline/write_string.v                                   ;
+; lib/addsat.vhd                                                      ;
+; lib/average.vhd                                                     ;
+; lib/crcgenn.vhd                                                     ;
+; lib/datfifo.vhd                                                     ;
+; lib/g_srff.vhd                                                      ;
+; lib/pargen.vhd                                                      ;
+; lib/parityg.vhd                                                     ;
+; lib/sftclk.vhd                                                      ;
+; lib/sftdiv.vhd                                                      ;
+; lib/sftgen.vhd                                                      ;
++---------------------------------------------------------------------+
+
+
