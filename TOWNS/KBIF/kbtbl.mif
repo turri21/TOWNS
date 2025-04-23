@@ -1,0 +1,160 @@
+-- Copyright (C) 2017  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details.
+
+-- Quartus Prime generated Memory Initialization File (.mif)
+
+WIDTH=8;
+DEPTH=256;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	000  :   00;
+	001  :   65;
+	002  :   00;
+	003  :   61;
+	004  :   5F;
+	005  :   5D;
+	006  :   5E;
+	007  :   5B;
+	008  :   00;
+	009  :   66;
+	00A  :   64;
+	00B  :   62;
+	00C  :   60;
+	00D  :   10;
+	00E  :   71;
+	[00F..010]  :   00;
+	011  :   56;
+	012  :   53;
+	013  :   59;
+	014  :   52;
+	015  :   11;
+	016  :   02;
+	[017..019]  :   00;
+	01A  :   2A;
+	01B  :   1F;
+	01C  :   1E;
+	01D  :   12;
+	01E  :   03;
+	[01F..020]  :   00;
+	021  :   2C;
+	022  :   2B;
+	023  :   20;
+	024  :   13;
+	025  :   05;
+	026  :   04;
+	[027..028]  :   00;
+	029  :   35;
+	02A  :   2D;
+	02B  :   21;
+	02C  :   15;
+	02D  :   14;
+	02E  :   06;
+	[02F..030]  :   00;
+	031  :   2F;
+	032  :   2E;
+	033  :   23;
+	034  :   22;
+	035  :   16;
+	036  :   07;
+	[037..039]  :   00;
+	03A  :   30;
+	03B  :   24;
+	03C  :   17;
+	03D  :   08;
+	03E  :   09;
+	[03F..040]  :   00;
+	041  :   31;
+	042  :   25;
+	043  :   18;
+	044  :   19;
+	045  :   0B;
+	046  :   0A;
+	[047..048]  :   00;
+	049  :   32;
+	04A  :   33;
+	04B  :   26;
+	04C  :   27;
+	04D  :   1A;
+	04E  :   0C;
+	[04F..050]  :   00;
+	051  :   34;
+	052  :   28;
+	053  :   00;
+	054  :   1B;
+	055  :   0D;
+	[056..057]  :   00;
+	058  :   55;
+	059  :   53;
+	05A  :   1D;
+	05B  :   1C;
+	05C  :   00;
+	05D  :   29;
+	[05E..063]  :   00;
+	064  :   58;
+	065  :   00;
+	066  :   0F;
+	067  :   57;
+	068  :   00;
+	069  :   42;
+	06A  :   0E;
+	06B  :   3E;
+	06C  :   3A;
+	[06D..06F]  :   00;
+	070  :   46;
+	071  :   47;
+	072  :   43;
+	073  :   3F;
+	074  :   40;
+	075  :   3B;
+	076  :   01;
+	077  :   3D;
+	078  :   69;
+	079  :   38;
+	07A  :   44;
+	07B  :   39;
+	07C  :   36;
+	07D  :   3C;
+	07E  :   7C;
+	[07F..082]  :   00;
+	083  :   63;
+	[084..090]  :   00;
+	091  :   5A;
+	092  :   7D;
+	[093..09E]  :   00;
+	09F  :   73;
+	[0A0..0A6]  :   00;
+	0A7  :   73;
+	[0A8..0AE]  :   00;
+	0AF  :   72;
+	[0B0..0C9]  :   00;
+	0CA  :   37;
+	[0CB..0EA]  :   00;
+	0EB  :   4F;
+	0EC  :   4E;
+	[0ED..0EF]  :   00;
+	0F0  :   48;
+	0F1  :   4B;
+	0F2  :   50;
+	0F3  :   00;
+	0F4  :   51;
+	0F5  :   4D;
+	[0F6..0F9]  :   00;
+	0FA  :   70;
+	[0FB..0FC]  :   00;
+	0FD  :   6E;
+	[0FE..0FF]  :   00;
+END;
